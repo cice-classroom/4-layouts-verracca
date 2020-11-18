@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  padding: var(--l) var(--m);
+  box-shadow: var(--shadow);
+  background-color: var(--primary--color);
+}
+
+.navbar__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: var(--body--width);
+  width: 100%;
+}
+
+.navbar__logo {
+  width: var(--xl);
+  height: var(--xl);
+  background-color: var(--primary--color--dark);
+  border-radius: var(--radius);
+}
+
+.navbar__search {
+  background-color: var(--secondary--color);
+  border-radius: var(--radius);
+  padding: var(--m);
+}
+
+.navbar__login {
+}

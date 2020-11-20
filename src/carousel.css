@@ -1,0 +1,34 @@
+.carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--secondary--color--light);
+  padding: var(--xl);
+}
+
+.main_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subtitle,
+.title {
+  font-family: var(--title--font);
+}
+
+.title {
+  font-weight: bold;
+  font-size: x-large;
+  padding-top: var(--m);
+}
+
+.carousel__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: var(--xl);
+  margin: 0 auto;
+  max-width: var(--body--width);
+  width: 100%;
+}

@@ -1,0 +1,23 @@
+.donation {
+  background-color: var(--secondary--color--light);
+}
+
+.donation-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: var(--body--width);
+  padding: var(--xl);
+  margin: 0 auto;
+  display: flex;
+}
+
+.donation-title {
+  font-size: xx-large;
+  font-weight: bold;
+  align-self: center;
+  padding: var(--l);
+}
+
+

@@ -1,0 +1,15 @@
+footer {
+  background-color: var(--primary--color--dark);
+}
+
+.footer-wrapper {
+  display: flex;
+}
+
+.company-title {
+  flex: 1;
+}
+
+.terms {
+  display: flex;
+}

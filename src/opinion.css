@@ -1,0 +1,24 @@
+.opinion {
+  background-color: var(--secondary--color);
+}
+
+.opinion-wrapper {
+  padding: var(--xl);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: var(--body--width);
+}
+
+.opinion-title {
+  font-size: xx-large;
+  font-weight: bold;
+  align-self: center;
+  padding: var(--l);
+}
+
+.dog-photos {
+  padding: var(--l) var(--s);
+}

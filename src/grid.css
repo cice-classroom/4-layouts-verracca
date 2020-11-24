@@ -1,5 +1,9 @@
-.grid-section {
+.grid {
   background-color: var(--primary--color--light);
+}
+
+.grid-wrapper {
+  max-width: var(--body--width);
   padding: var(--xl);
   margin: 0 auto;
   display: grid;

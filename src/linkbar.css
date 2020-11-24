@@ -1,0 +1,30 @@
+.linkbar {
+  background-color: var(--primary--color);
+  display: flex;
+  justify-content: space-between;
+  padding: var(--l);
+}
+
+.linkbar-wrapper {
+  display: flex;
+  padding: var(--xl);
+}
+
+ul {
+  list-style: circle inside;
+}
+
+.linkbar-title {
+  font-size: xx-large;
+  font-weight: bold;
+  align-self: center;
+  padding: var(--l);
+}
+
+a {
+  text-decoration: none;
+}
+
+.links {
+  padding: var(--l);
+}

@@ -22,3 +22,16 @@
 .dog-photos {
   padding: var(--l) var(--s);
 }
+
+@media screen and (max-width: 600px) {
+  .hidden {
+    display: none;
+  }
+
+  .dog-photos {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px;
+    grid-gap: var(--m);
+  }
+}

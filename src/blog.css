@@ -42,3 +42,15 @@
   padding: var(--l) var(--m);
   font-size: large;
 }
+
+@media screen and (max-width: 600px) {
+  .blog-content-two {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .blog-content {
+    display: flex;
+    align-items: center;
+  }
+}

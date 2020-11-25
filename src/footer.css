@@ -13,3 +13,9 @@ footer {
 .terms {
   display: flex;
 }
+
+@media screen and (max-width: 600px) {
+  .footer-wrapper {
+    display: block;
+  }
+}

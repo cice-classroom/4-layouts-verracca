@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   background-color: var(--secondary--color--light);
-  padding: var(--xl);
+  padding: var(--l);
 }
 
 .main_title {
@@ -27,8 +27,14 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: var(--xl);
+  padding: var(--xl) var(--l);
   margin: 0 auto;
   max-width: var(--body--width);
   width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .hidden {
+    display: none;
+  }
 }

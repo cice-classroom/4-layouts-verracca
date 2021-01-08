@@ -1,0 +1,25 @@
+:root {
+  --base: 0.25rem;
+  --s: var(--base);
+  --m: calc(var(--base) * 2);
+  --l: calc(var(--base) * 4);
+  --xl: calc(var(--base) * 10);
+
+  --body--font: 'Roboto', sans-serif;
+  --title--font: 'Roboto', sans-serif;
+
+  --primary--color: #f8bbd0;
+  --primary--color--light: #ffeeff;
+  --primary--color--dark: #c48b9f;
+  --on--primary--color: #263238;
+
+  --secondary--color: #d7ccc8;
+  --secondary--color--light: #fffffb;
+  --secondary--color--dark: #a69b97;
+  --on--secondary--color: #fafafa;
+
+  --body--width: 75rem;
+
+  --shadow: 2px 2px 5px 2px hsla(339, 81%, 85%, 0.8);
+  --radius: 9999px;
+}

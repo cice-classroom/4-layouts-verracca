@@ -1,0 +1,40 @@
+.carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--secondary--color--light);
+  padding: var(--l);
+}
+
+.main_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subtitle,
+.title {
+  font-family: var(--title--font);
+}
+
+.title {
+  font-weight: bold;
+  font-size: xx-large;
+  padding-top: var(--m);
+}
+
+.carousel__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: var(--xl) var(--l);
+  margin: 0 auto;
+  max-width: var(--body--width);
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .hidden {
+    display: none;
+  }
+}
